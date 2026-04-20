@@ -1,0 +1,180 @@
+2026-04-20T08:21:45.7465079Z Current runner version: '2.333.1'
+2026-04-20T08:21:45.7500192Z ##[group]Runner Image Provisioner
+2026-04-20T08:21:45.7501569Z Hosted Compute Agent
+2026-04-20T08:21:45.7502318Z Version: 20260213.493
+2026-04-20T08:21:45.7503329Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+2026-04-20T08:21:45.7504432Z Build Date: 2026-02-13T00:28:41Z
+2026-04-20T08:21:45.7505361Z Worker ID: {d26b937a-e31c-4a97-a651-6dc3cee8bcac}
+2026-04-20T08:21:45.7506555Z Azure Region: eastus
+2026-04-20T08:21:45.7507384Z ##[endgroup]
+2026-04-20T08:21:45.7509460Z ##[group]Operating System
+2026-04-20T08:21:45.7510458Z Ubuntu
+2026-04-20T08:21:45.7511427Z 24.04.4
+2026-04-20T08:21:45.7512077Z LTS
+2026-04-20T08:21:45.7512930Z ##[endgroup]
+2026-04-20T08:21:45.7513632Z ##[group]Runner Image
+2026-04-20T08:21:45.7514444Z Image: ubuntu-24.04
+2026-04-20T08:21:45.7515377Z Version: 20260413.86.1
+2026-04-20T08:21:45.7517311Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260413.86/images/ubuntu/Ubuntu2404-Readme.md
+2026-04-20T08:21:45.7519839Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260413.86
+2026-04-20T08:21:45.7521542Z ##[endgroup]
+2026-04-20T08:21:45.7523294Z ##[group]GITHUB_TOKEN Permissions
+2026-04-20T08:21:45.7525806Z Contents: read
+2026-04-20T08:21:45.7526632Z Metadata: read
+2026-04-20T08:21:45.7527474Z Packages: read
+2026-04-20T08:21:45.7528173Z ##[endgroup]
+2026-04-20T08:21:45.7531203Z Secret source: Actions
+2026-04-20T08:21:45.7532230Z Prepare workflow directory
+2026-04-20T08:21:45.7994180Z Prepare all required actions
+2026-04-20T08:21:45.8048037Z Getting action download info
+2026-04-20T08:21:46.0965105Z Download action repository 'actions/checkout@v3' (SHA:f43a0e5ff2bd294095638e18286ca9a3d1956744)
+2026-04-20T08:21:48.4216280Z Download action repository 'actions/setup-python@v4' (SHA:7f4fc3e22c37d6ff65e88745f38bd3157c663f7c)
+2026-04-20T08:21:48.7126058Z Complete job name: build
+2026-04-20T08:21:48.7819345Z ##[group]Run actions/checkout@v3
+2026-04-20T08:21:48.7820296Z with:
+2026-04-20T08:21:48.7820824Z   repository: Charulpareek/sre-monitoring-system
+2026-04-20T08:21:48.7821867Z   token: ***
+2026-04-20T08:21:48.7822273Z   ssh-strict: true
+2026-04-20T08:21:48.7822723Z   persist-credentials: true
+2026-04-20T08:21:48.7823197Z   clean: true
+2026-04-20T08:21:48.7823632Z   sparse-checkout-cone-mode: true
+2026-04-20T08:21:48.7824134Z   fetch-depth: 1
+2026-04-20T08:21:48.7824550Z   fetch-tags: false
+2026-04-20T08:21:48.7824973Z   lfs: false
+2026-04-20T08:21:48.7825366Z   submodules: false
+2026-04-20T08:21:48.7825807Z   set-safe-directory: true
+2026-04-20T08:21:48.7826508Z ##[endgroup]
+2026-04-20T08:21:48.8716649Z Syncing repository: Charulpareek/sre-monitoring-system
+2026-04-20T08:21:48.8718571Z ##[group]Getting Git version info
+2026-04-20T08:21:48.8719462Z Working directory is '/home/runner/work/sre-monitoring-system/sre-monitoring-system'
+2026-04-20T08:21:48.8720750Z [command]/usr/bin/git version
+2026-04-20T08:21:49.0115735Z git version 2.53.0
+2026-04-20T08:21:49.0142058Z ##[endgroup]
+2026-04-20T08:21:49.0158499Z Temporarily overriding HOME='/home/runner/work/_temp/07870311-43ab-4c5e-a579-df33d0fa7e43' before making global git config changes
+2026-04-20T08:21:49.0161671Z Adding repository directory to the temporary git global config as a safe directory
+2026-04-20T08:21:49.0164458Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/sre-monitoring-system/sre-monitoring-system
+2026-04-20T08:21:49.0196795Z Deleting the contents of '/home/runner/work/sre-monitoring-system/sre-monitoring-system'
+2026-04-20T08:21:49.0200189Z ##[group]Initializing the repository
+2026-04-20T08:21:49.0204786Z [command]/usr/bin/git init /home/runner/work/sre-monitoring-system/sre-monitoring-system
+2026-04-20T08:21:49.0940112Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-04-20T08:21:49.0943067Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-04-20T08:21:49.0945500Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-04-20T08:21:49.0947857Z hint: call:
+2026-04-20T08:21:49.0948776Z hint:
+2026-04-20T08:21:49.0949997Z hint: 	git config --global init.defaultBranch <name>
+2026-04-20T08:21:49.0951746Z hint:
+2026-04-20T08:21:49.0953208Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-04-20T08:21:49.0955680Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-04-20T08:21:49.0957716Z hint:
+2026-04-20T08:21:49.0958752Z hint: 	git branch -m <name>
+2026-04-20T08:21:49.0959569Z hint:
+2026-04-20T08:21:49.0960740Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-04-20T08:21:49.0963894Z Initialized empty Git repository in /home/runner/work/sre-monitoring-system/sre-monitoring-system/.git/
+2026-04-20T08:21:49.0970130Z [command]/usr/bin/git remote add origin https://github.com/Charulpareek/sre-monitoring-system
+2026-04-20T08:21:49.0986924Z ##[endgroup]
+2026-04-20T08:21:49.0989429Z ##[group]Disabling automatic garbage collection
+2026-04-20T08:21:49.0991849Z [command]/usr/bin/git config --local gc.auto 0
+2026-04-20T08:21:49.1018238Z ##[endgroup]
+2026-04-20T08:21:49.1020574Z ##[group]Setting up auth
+2026-04-20T08:21:49.1023656Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-04-20T08:21:49.1053866Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-04-20T08:21:49.4825920Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-04-20T08:21:49.4858436Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-04-20T08:21:49.5087288Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-04-20T08:21:49.5119703Z ##[endgroup]
+2026-04-20T08:21:49.5122503Z ##[group]Fetching the repository
+2026-04-20T08:21:49.5131236Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --progress --no-recurse-submodules --depth=1 origin +98eac65b1e74c9ee99de61b2c8ce283c17e7205e:refs/remotes/origin/main
+2026-04-20T08:21:49.8723944Z remote: Enumerating objects: 22, done.        
+2026-04-20T08:21:49.8725518Z remote: Counting objects:   4% (1/22)        
+2026-04-20T08:21:49.8726864Z remote: Counting objects:   9% (2/22)        
+2026-04-20T08:21:49.8728160Z remote: Counting objects:  13% (3/22)        
+2026-04-20T08:21:49.8729692Z remote: Counting objects:  18% (4/22)        
+2026-04-20T08:21:49.8731512Z remote: Counting objects:  22% (5/22)        
+2026-04-20T08:21:49.8732780Z remote: Counting objects:  27% (6/22)        
+2026-04-20T08:21:49.8734049Z remote: Counting objects:  31% (7/22)        
+2026-04-20T08:21:49.8735386Z remote: Counting objects:  36% (8/22)        
+2026-04-20T08:21:49.8736663Z remote: Counting objects:  40% (9/22)        
+2026-04-20T08:21:49.8737982Z remote: Counting objects:  45% (10/22)        
+2026-04-20T08:21:49.8739365Z remote: Counting objects:  50% (11/22)        
+2026-04-20T08:21:49.8740800Z remote: Counting objects:  54% (12/22)        
+2026-04-20T08:21:49.8742570Z remote: Counting objects:  59% (13/22)        
+2026-04-20T08:21:49.8744538Z remote: Counting objects:  63% (14/22)        
+2026-04-20T08:21:49.8745845Z remote: Counting objects:  68% (15/22)        
+2026-04-20T08:21:49.8747147Z remote: Counting objects:  72% (16/22)        
+2026-04-20T08:21:49.8748436Z remote: Counting objects:  77% (17/22)        
+2026-04-20T08:21:49.8749727Z remote: Counting objects:  81% (18/22)        
+2026-04-20T08:21:49.8751256Z remote: Counting objects:  86% (19/22)        
+2026-04-20T08:21:49.8752894Z remote: Counting objects:  90% (20/22)        
+2026-04-20T08:21:49.8754733Z remote: Counting objects:  95% (21/22)        
+2026-04-20T08:21:49.8756040Z remote: Counting objects: 100% (22/22)        
+2026-04-20T08:21:49.8758205Z remote: Counting objects: 100% (22/22), done.        
+2026-04-20T08:21:49.8760093Z remote: Compressing objects:   5% (1/18)        
+2026-04-20T08:21:49.8761676Z remote: Compressing objects:  11% (2/18)        
+2026-04-20T08:21:49.8763107Z remote: Compressing objects:  16% (3/18)        
+2026-04-20T08:21:49.8764454Z remote: Compressing objects:  22% (4/18)        
+2026-04-20T08:21:49.8765810Z remote: Compressing objects:  27% (5/18)        
+2026-04-20T08:21:49.8767708Z remote: Compressing objects:  33% (6/18)        
+2026-04-20T08:21:49.8769579Z remote: Compressing objects:  38% (7/18)        
+2026-04-20T08:21:49.8771268Z remote: Compressing objects:  44% (8/18)        
+2026-04-20T08:21:49.8772898Z remote: Compressing objects:  50% (9/18)        
+2026-04-20T08:21:49.8774857Z remote: Compressing objects:  55% (10/18)        
+2026-04-20T08:21:49.8776244Z remote: Compressing objects:  61% (11/18)        
+2026-04-20T08:21:49.8777606Z remote: Compressing objects:  66% (12/18)        
+2026-04-20T08:21:49.8778980Z remote: Compressing objects:  72% (13/18)        
+2026-04-20T08:21:49.8780335Z remote: Compressing objects:  77% (14/18)        
+2026-04-20T08:21:49.8782178Z remote: Compressing objects:  83% (15/18)        
+2026-04-20T08:21:49.8783904Z remote: Compressing objects:  88% (16/18)        
+2026-04-20T08:21:49.8785514Z remote: Compressing objects:  94% (17/18)        
+2026-04-20T08:21:49.8787341Z remote: Compressing objects: 100% (18/18)        
+2026-04-20T08:21:49.8788800Z remote: Compressing objects: 100% (18/18), done.        
+2026-04-20T08:21:49.8987836Z remote: Total 22 (delta 0), reused 16 (delta 0), pack-reused 0 (from 0)        
+2026-04-20T08:21:49.9186991Z From https://github.com/Charulpareek/sre-monitoring-system
+2026-04-20T08:21:49.9188918Z  * [new ref]         98eac65b1e74c9ee99de61b2c8ce283c17e7205e -> origin/main
+2026-04-20T08:21:49.9218093Z ##[endgroup]
+2026-04-20T08:21:49.9220005Z ##[group]Determining the checkout info
+2026-04-20T08:21:49.9221910Z ##[endgroup]
+2026-04-20T08:21:49.9223426Z ##[group]Checking out the ref
+2026-04-20T08:21:49.9225033Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-04-20T08:21:49.9314685Z Switched to a new branch 'main'
+2026-04-20T08:21:49.9316967Z branch 'main' set up to track 'origin/main'.
+2026-04-20T08:21:49.9324420Z ##[endgroup]
+2026-04-20T08:21:49.9357960Z [command]/usr/bin/git log -1 --format='%H'
+2026-04-20T08:21:49.9380151Z '98eac65b1e74c9ee99de61b2c8ce283c17e7205e'
+2026-04-20T08:21:49.9695551Z ##[group]Run actions/setup-python@v4
+2026-04-20T08:21:49.9696572Z with:
+2026-04-20T08:21:49.9697281Z   python-version: 3.10
+2026-04-20T08:21:49.9698124Z   check-latest: false
+2026-04-20T08:21:49.9699178Z   token: ***
+2026-04-20T08:21:49.9699948Z   update-environment: true
+2026-04-20T08:21:49.9700866Z   allow-prereleases: false
+2026-04-20T08:21:49.9701890Z ##[endgroup]
+2026-04-20T08:21:50.1362815Z ##[group]Installed versions
+2026-04-20T08:21:50.3597230Z Successfully set up CPython (3.10.20)
+2026-04-20T08:21:50.3599687Z ##[endgroup]
+2026-04-20T08:21:50.3749804Z ##[group]Run pip install -r requirements.txt
+2026-04-20T08:21:50.3751402Z [36;1mpip install -r requirements.txt[0m
+2026-04-20T08:21:50.3953469Z shell: /usr/bin/bash -e {0}
+2026-04-20T08:21:50.3954389Z env:
+2026-04-20T08:21:50.3955308Z   pythonLocation: /opt/hostedtoolcache/Python/3.10.20/x64
+2026-04-20T08:21:50.3956921Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.10.20/x64/lib/pkgconfig
+2026-04-20T08:21:50.3958523Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.20/x64
+2026-04-20T08:21:50.3959950Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.20/x64
+2026-04-20T08:21:50.3961707Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.20/x64
+2026-04-20T08:21:50.3963174Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.10.20/x64/lib
+2026-04-20T08:21:50.3964406Z ##[endgroup]
+2026-04-20T08:21:53.1182169Z ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
+2026-04-20T08:21:53.1533442Z ##[error]Process completed with exit code 1.
+2026-04-20T08:21:53.1635280Z Post job cleanup.
+2026-04-20T08:21:53.2423144Z [command]/usr/bin/git version
+2026-04-20T08:21:53.2456706Z git version 2.53.0
+2026-04-20T08:21:53.2498462Z Temporarily overriding HOME='/home/runner/work/_temp/95757a6b-0537-4cdb-b233-ddec1387d889' before making global git config changes
+2026-04-20T08:21:53.2499849Z Adding repository directory to the temporary git global config as a safe directory
+2026-04-20T08:21:53.2503589Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/sre-monitoring-system/sre-monitoring-system
+2026-04-20T08:21:53.2535333Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-04-20T08:21:53.2564450Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-04-20T08:21:53.2798331Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-04-20T08:21:53.2819180Z http.https://github.com/.extraheader
+2026-04-20T08:21:53.2830460Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-04-20T08:21:53.2859979Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-04-20T08:21:53.3196909Z Cleaning up orphan processes
+2026-04-20T08:21:53.3462592Z ##[warning]Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@v3, actions/setup-python@v4. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
