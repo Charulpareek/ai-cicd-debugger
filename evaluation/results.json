@@ -1,0 +1,88 @@
+{
+  "total_cases": 10,
+  "correct_cases": 10,
+  "accuracy_percent": 100.0,
+  "average_latency_ms": 2251.85,
+  "results": [
+    {
+      "file": "auth_01.log",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 1104.01,
+      "status": "success"
+    },
+    {
+      "file": "auth_02.log",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 671.72,
+      "status": "success"
+    },
+    {
+      "file": "build_01.log",
+      "expected": "build",
+      "predicted": "build",
+      "correct": true,
+      "latency_ms": 712.74,
+      "status": "success"
+    },
+    {
+      "file": "dependency_01.log",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 858.97,
+      "status": "success"
+    },
+    {
+      "file": "dependency_02.log",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 1065.62,
+      "status": "success"
+    },
+    {
+      "file": "file_01.log",
+      "expected": "file",
+      "predicted": "file",
+      "correct": true,
+      "latency_ms": 732.8,
+      "status": "success"
+    },
+    {
+      "file": "file_02.log",
+      "expected": "file",
+      "predicted": "file",
+      "correct": true,
+      "latency_ms": 676.06,
+      "status": "success"
+    },
+    {
+      "file": "network_01.log",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 8879.35,
+      "status": "success"
+    },
+    {
+      "file": "network_02.log",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 996.29,
+      "status": "success"
+    },
+    {
+      "file": "test_01.log",
+      "expected": "test",
+      "predicted": "test",
+      "correct": true,
+      "latency_ms": 6820.98,
+      "status": "success"
+    }
+  ]
+}
