@@ -21,6 +21,7 @@ The **AI CI/CD Debugger** automatically analyzes CI/CD logs and classifies failu
 - `test`
 - `file`
 - `unknown`
+---
 The system combines log parsing, rule-based classification, and AI-assisted analysis to produce a final classification and debugging information.
 
 ---
