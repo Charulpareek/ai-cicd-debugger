@@ -19,8 +19,7 @@ The **AI CI/CD Debugger** automatically analyzes CI/CD logs and classifies failu
 - `network`
 - `build`
 - `test`
-- `file`
-- `unknown`
+
 
 The system combines log parsing, rule-based classification, and AI-assisted analysis to produce a final classification and debugging information.
 
@@ -741,7 +740,7 @@ Combined Evaluation
 Total Cases: 83
 Correct:     77
 Accuracy:    92.77%
-Latency:     28.44 ms
+Combined Average Latency:     28.44 ms
 ```
 
 The system therefore correctly classified:
