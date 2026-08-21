@@ -1,0 +1,699 @@
+{
+  "benchmark": "real_world_ood",
+  "total_cases": 83,
+  "correct_cases": 34,
+  "accuracy_percent": 40.96,
+  "average_latency_ms": 4789.7,
+  "results": [
+    {
+      "id": "RW3-0001",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 1206.63,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0002",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 830.23,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0003",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 797.48,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0004",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 790.25,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0005",
+      "expected": "authentication",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0006",
+      "expected": "authentication",
+      "predicted": "none",
+      "correct": false,
+      "latency_ms": 7.52,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0007",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 787.2,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0009",
+      "expected": "authentication",
+      "predicted": "none",
+      "correct": false,
+      "latency_ms": 7.72,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0010",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 10010.11,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0011",
+      "expected": "authentication",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0012",
+      "expected": "authentication",
+      "predicted": "none",
+      "correct": false,
+      "latency_ms": 32.35,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0035",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 7306.15,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0036",
+      "expected": "network",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0037",
+      "expected": "network",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0038",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 8085.53,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0039",
+      "expected": "network",
+      "predicted": "none",
+      "correct": false,
+      "latency_ms": 14.87,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0040",
+      "expected": "network",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0043",
+      "expected": "network",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0044",
+      "expected": "network",
+      "predicted": "none",
+      "correct": false,
+      "latency_ms": 6.18,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0065",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 9207.48,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0066",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 7059.79,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0067",
+      "expected": "dependency",
+      "predicted": "authentication",
+      "correct": false,
+      "latency_ms": 7677.55,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0068",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 6963.84,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0069",
+      "expected": "dependency",
+      "predicted": "none",
+      "correct": false,
+      "latency_ms": 13.23,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0070",
+      "expected": "dependency",
+      "predicted": "build",
+      "correct": false,
+      "latency_ms": 8165.67,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0071",
+      "expected": "dependency",
+      "predicted": "none",
+      "correct": false,
+      "latency_ms": 13.7,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0073",
+      "expected": "dependency",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0074",
+      "expected": "dependency",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0118",
+      "expected": "authentication",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0159",
+      "expected": "authentication",
+      "predicted": "none",
+      "correct": false,
+      "latency_ms": 16.11,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0213",
+      "expected": "build",
+      "predicted": "none",
+      "correct": false,
+      "latency_ms": 8.94,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0214",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 8119.51,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0215",
+      "expected": "build",
+      "predicted": "build",
+      "correct": true,
+      "latency_ms": 8188.66,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0226",
+      "expected": "build",
+      "predicted": "build",
+      "correct": true,
+      "latency_ms": 7982.24,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0229",
+      "expected": "network",
+      "predicted": "dependency",
+      "correct": false,
+      "latency_ms": 6961.62,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0230",
+      "expected": "network",
+      "predicted": "dependency",
+      "correct": false,
+      "latency_ms": 7166.82,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0231",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 7065.45,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0232",
+      "expected": "network",
+      "predicted": "dependency",
+      "correct": false,
+      "latency_ms": 9113.56,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0233",
+      "expected": "network",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0234",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 8191.27,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0235",
+      "expected": "network",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0236",
+      "expected": "network",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0237",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 8049.87,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0238",
+      "expected": "network",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0240",
+      "expected": "authentication",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0244",
+      "expected": "build",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0249",
+      "expected": "dependency",
+      "predicted": "none",
+      "correct": false,
+      "latency_ms": 9.13,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0250",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 7912.78,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0251",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 8331.77,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0252",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 8138.87,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0253",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 8042.74,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0254",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 7055.73,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0255",
+      "expected": "dependency",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0256",
+      "expected": "dependency",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0257",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 8070.62,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0258",
+      "expected": "dependency",
+      "predicted": "none",
+      "correct": false,
+      "latency_ms": 20.89,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0259",
+      "expected": "test",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0260",
+      "expected": "test",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0261",
+      "expected": "test",
+      "predicted": "test",
+      "correct": true,
+      "latency_ms": 6959.14,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0264",
+      "expected": "test",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0265",
+      "expected": "test",
+      "predicted": "test",
+      "correct": true,
+      "latency_ms": 7773.05,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0266",
+      "expected": "test",
+      "predicted": "test",
+      "correct": true,
+      "latency_ms": 8174.93,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0267",
+      "expected": "test",
+      "predicted": "test",
+      "correct": true,
+      "latency_ms": 7011.17,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0268",
+      "expected": "test",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0393",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 7859.97,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0400",
+      "expected": "network",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0401",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 8055.42,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0402",
+      "expected": "network",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0403",
+      "expected": "network",
+      "predicted": "none",
+      "correct": false,
+      "latency_ms": 8.18,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0404",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 8050.14,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0405",
+      "expected": "network",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0406",
+      "expected": "network",
+      "predicted": "none",
+      "correct": false,
+      "latency_ms": 24.3,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0407",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 7911.86,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0408",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 8088.35,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0409",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 7162.3,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0438",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 7985.51,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0440",
+      "expected": "dependency",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0445",
+      "expected": "test",
+      "predicted": "error",
+      "correct": false,
+      "latency_ms": null,
+      "status": "failed",
+      "error": "500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/analyze"
+    },
+    {
+      "id": "RW3-0457",
+      "expected": "authentication",
+      "predicted": "none",
+      "correct": false,
+      "latency_ms": 10.51,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0459",
+      "expected": "network",
+      "predicted": "none",
+      "correct": false,
+      "latency_ms": 13.3,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0464",
+      "expected": "authentication",
+      "predicted": "none",
+      "correct": false,
+      "latency_ms": 22.21,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0481",
+      "expected": "authentication",
+      "predicted": "none",
+      "correct": false,
+      "latency_ms": 15.66,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0487",
+      "expected": "network",
+      "predicted": "none",
+      "correct": false,
+      "latency_ms": 456.59,
+      "status": "success"
+    }
+  ]
+}

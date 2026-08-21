@@ -1,0 +1,44 @@
+id,error_message,expected_type,category,source_url
+RW3-0009,[AWS_STS_REGION_ENDPOINTS] The security token included in the request is expired.,authentication,Authentication,https://github.com/aws/aws-sdk-js/issues/1819
+RW3-0229,"npm ERR! code ENOTFOUND
+npm ERR! errno ENOTFOUND
+npm ERR! network request to https://registry.npmjs.org/commander failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443",network,Network,https://github.com/npm/npm/issues/19461
+RW3-0070,"ERROR: While loading /var/lib/jenkins/.gradle/caches/modules-2/files-2.1 java.lang.OutOfMemoryError: Java heap space
+error: org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:compileJava'.",dependency,Dependencies,https://github.com/gradle/gradle/issues/14688
+RW3-0487,Network: BGP route for 10.8.0.0/16 was accidentally withdrawn. All microservices in the internal VPN subnet are unreachable. Requires network engineer to restore routing table.,network,Network,https://github.com/FRRouting/frr/issues/14231
+RW3-0440,"Error: GPG check FAILED for package python3-devel-3.11.2-1.el9.x86_64 (BaseOS)
+dnf: GPG check failed. Repository key rotation may be required.",dependency,Dependencies,https://stackoverflow.com/questions/74893143/rocky-linux-9-dnf-gpg-check-failed
+RW3-0213,"E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 12345 (apt-get).
+E: Unable to acquire the dpkg frontend lock, are you root?",build,Build,https://github.com/actions/runner-images/issues/5700
+RW3-0238,"Error from server: etcdserver: request timed out
+dns: lookup api-int.ocp-cluster.example.com on 172.30.0.10:53: no such host",network,Network,https://github.com/openshift/origin/issues/24873
+RW3-0264,"Error: spawn EACCES /usr/local/bin/node: bind EADDRINUSE 0.0.0.0:3000
+Process exited with code 1",test,Test,https://github.com/nodejs/help/issues/1890
+RW3-0393,Error: AWS account 123456789012 has been suspended due to billing violation. All API calls will fail until the account is restored.,authentication,Authentication,https://github.com/aws/aws-cli/issues/7891
+RW3-0445,"panic: runtime error: invalid memory address or nil pointer dereference in github.com/gofiber/fiber
+fiber: bind: address already in use :::8080
+Cannot start Fiber application.",test,Test,https://github.com/gofiber/fiber/issues/1943
+RW3-0043,"Error from server (InternalError): error when creating ""ingress.yaml"": Internal error occurred: failed calling webhook ""validate.nginx.ingress.kubernetes.io"": Post https://ingress-nginx-controller-admission:443/networking/v1/ingresses: dial tcp: lookup ingress-nginx-controller-admission on 172.20.0.10:53: no such host",network,Network,https://github.com/kubernetes/ingress-nginx/issues/5988
+RW3-0260,"[0] Error: listen EADDRINUSE: address already in use :::5000
+[0] at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+[0] at listenInCluster (net.js:1366:12)",test,Test,https://github.com/remy/nodemon/issues/1849
+RW3-0250,"[dup-249] npm ERR! code ENOTFOUND
+npm ERR! errno ENOTFOUND
+npm ERR! network request to http://registry.npmjs.org/create-react-app failed, reason: getaddrinfo ENOTFOUND proxy.example.com",dependency,Dependencies,https://github.com/nodejs/help/issues/4093
+RW3-0406,"WARN: VPN IP address changed from 10.8.0.5 to 10.8.0.8 after reconnect. Update DNS and routing tables.
+Route to 192.168.0.0/16 via 10.8.0.1 unreachable.",network,Network,https://github.com/OpenVPN/openvpn/issues/243
+RW3-0066,"npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.npmjs.org/@company%2fprivate-pkg - Not found
+npm ERR! 404 '@company/private-pkg@1.2.3' is not in this registry.",dependency,Dependencies,https://github.com/npm/npm/issues/14737
+RW3-0038,"dig: couldn't get address for 'api.internal.example.com': not found
+Error: dial tcp: lookup api.internal.example.com on 10.0.0.2:53: no such host",network,Network,https://github.com/kubernetes/kubernetes/issues/70202
+RW3-0234,"dial tcp: lookup kubernetes.default.svc.cluster.local on 10.96.0.10:53: read udp 10.244.0.5:42847->10.96.0.10:53: i/o timeout
+Error: failed to resolve service hostname",network,Network,https://github.com/kubernetes/kubernetes/issues/52315
+RW3-0065,ERROR: Could not find a version that satisfies the requirement tensorflow==2.4.0 (from versions: none) ERROR: No matching distribution found for tensorflow==2.4.0,dependency,Dependencies,https://github.com/pypa/pip/issues/9613
+RW3-0256,"gem install rails -v 7.0.4 failed. Gem::Ext::BuildError: ERROR: Failed to build gem native extension. make failed, exit code 2.
+An error occurred while installing nokogiri (1.13.10), and Bundler cannot continue.",dependency,Dependencies,https://github.com/rubygems/rubygems/issues/5723
+RW3-0409,Error: AWS Site-to-Site VPN tunnel is down. BGP session to Customer Gateway 203.0.113.10 is down. Tunnel1 Status: DOWN. Check customer gateway configuration.,network,Network,https://github.com/hashicorp/terraform-provider-aws/issues/12476
+RW3-0007,An error occurred (AuthFailure) when calling the DescribeInstances operation: AWS was not able to validate the provided access credentials,authentication,Authentication,https://github.com/ansible/ansible/issues/17797
+RW3-0159,"remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/",authentication,Authentication,https://github.com/orgs/community/discussions/18596
+RW3-0012,Unable to locate credentials for 'http://xxxxxxx/awsdev-patching/customer_deploy.git' — Message: Unable to locate credentials,authentication,Authentication,https://github.com/orgs/community/discussions/55933

@@ -1,0 +1,146 @@
+id,error_message,expected_type,category,source_url
+RW3-0001,NoCredentialsError: Unable to locate credentials,authentication,Authentication,https://github.com/aws/aws-cli/issues/915
+RW3-0002,upload failed: ../../abc/lampdata.json to s3://lamp/lampdata.json Unable to locate credentials,authentication,Authentication,https://github.com/aws/aws-cli/issues/5526
+RW3-0003,"Unable to locate credentials. You can configure credentials by running ""aws configure"". Error: Process completed with exit code 253.",authentication,Authentication,https://github.com/orgs/community/discussions/106412
+RW3-0004,botocore.exceptions.NoCredentialsError: Unable to locate credentials,authentication,Authentication,https://github.com/boto/boto3/issues/1461
+RW3-0005,fatal error: Unable to locate credentials. You can configure credentials by running 'aws configure'.,authentication,Authentication,https://github.com/aws-samples/aws-serverless-workshops/issues/61
+RW3-0006,"==> nat-instance.amazon-ebs.amz2arm64: Unable to locate credentials. You can configure credentials by running ""aws configure"".",authentication,Authentication,https://github.com/hashicorp/packer-plugin-amazon/issues/460
+RW3-0007,An error occurred (AuthFailure) when calling the DescribeInstances operation: AWS was not able to validate the provided access credentials,authentication,Authentication,https://github.com/ansible/ansible/issues/17797
+RW3-0009,[AWS_STS_REGION_ENDPOINTS] The security token included in the request is expired.,authentication,Authentication,https://github.com/aws/aws-sdk-js/issues/1819
+RW3-0010,"credentials_process: exit code 1
+An error occurred (InvalidClientTokenId) when calling the GetCallerIdentity operation: The security token included in the request is invalid.",authentication,Authentication,https://github.com/aws/aws-cli/issues/6776
+RW3-0011,"ERROR credentials provider: No valid providers in chain. Deprecated. For verbose messaging see aws.Config.CredentialsChainVerboseErrors
+botocore.exceptions.NoCredentialsError",authentication,Authentication,https://github.com/aws/aws-sdk-go/issues/968
+RW3-0012,Unable to locate credentials for 'http://xxxxxxx/awsdev-patching/customer_deploy.git' — Message: Unable to locate credentials,authentication,Authentication,https://github.com/orgs/community/discussions/55933
+RW3-0035,"Error from server: etcdserver: request timed out
+WARNING: Detected DNS lookup failure in cluster. Route 53 resolver may be rate-limited.",network,Network,https://github.com/aws/containers-roadmap/issues/855
+RW3-0036,Error: failed to update DNS record: Rate exceeded (Route 53 API). Ensure your Route53 request rate is below the limit of 5 requests per second.,network,Network,https://github.com/kubernetes-sigs/external-dns/issues/1364
+RW3-0037,Route 53 health check failed: connection to TCP 80 timed out after 10s; endpoint removed from traffic policy,network,Network,https://github.com/hashicorp/terraform-provider-aws/issues/7359
+RW3-0038,"dig: couldn't get address for 'api.internal.example.com': not found
+Error: dial tcp: lookup api.internal.example.com on 10.0.0.2:53: no such host",network,Network,https://github.com/kubernetes/kubernetes/issues/70202
+RW3-0039,Couldn't resolve host 'elasticloadbalancing.us-east-1.amazonaws.com'; could not reach Route53 resolver 169.254.169.253,network,Network,https://github.com/aws/amazon-vpc-cni-k8s/issues/938
+RW3-0040,Error: AWS Route 53 CNAME record propagation timeout. Record has been created but not yet visible in DNS.,network,Network,https://github.com/hashicorp/terraform-provider-aws/issues/15234
+RW3-0043,"Error from server (InternalError): error when creating ""ingress.yaml"": Internal error occurred: failed calling webhook ""validate.nginx.ingress.kubernetes.io"": Post https://ingress-nginx-controller-admission:443/networking/v1/ingresses: dial tcp: lookup ingress-nginx-controller-admission on 172.20.0.10:53: no such host",network,Network,https://github.com/kubernetes/ingress-nginx/issues/5988
+RW3-0044,Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Route53 private zone not associated: dial unix /var/run/docker.sock: connect: connection refused,network,Network,https://github.com/aws/amazon-ecs-agent/issues/2843
+RW3-0065,ERROR: Could not find a version that satisfies the requirement tensorflow==2.4.0 (from versions: none) ERROR: No matching distribution found for tensorflow==2.4.0,dependency,Dependencies,https://github.com/pypa/pip/issues/9613
+RW3-0066,"npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.npmjs.org/@company%2fprivate-pkg - Not found
+npm ERR! 404 '@company/private-pkg@1.2.3' is not in this registry.",dependency,Dependencies,https://github.com/npm/npm/issues/14737
+RW3-0067,error: failed to solve: failed to load cache key: failed to fetch anonymous token: unexpected status: 401 Unauthorized,dependency,Dependencies,https://github.com/docker/buildx/issues/1308
+RW3-0068,"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflict.
+requests 2.28.0 requires urllib3<2,>=1.21.1, but you have urllib3 2.0.3 which is incompatible.",dependency,Dependencies,https://github.com/pypa/pip/issues/12106
+RW3-0069,"Resolving dependencies... (0.5s)
+  SolverProblem: Because laravel/framework 9.0 requires symfony/http-foundation ^6.0 but symfony/http-foundation 5.4.28 is present.",dependency,Dependencies,https://github.com/composer/composer/issues/10855
+RW3-0070,"ERROR: While loading /var/lib/jenkins/.gradle/caches/modules-2/files-2.1 java.lang.OutOfMemoryError: Java heap space
+error: org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:compileJava'.",dependency,Dependencies,https://github.com/gradle/gradle/issues/14688
+RW3-0071,go: github.com/example/module@v1.2.3: reading https://sum.golang.org/lookup/github.com/example/module@v1.2.3: 410 Gone,dependency,Dependencies,https://github.com/golang/go/issues/42985
+RW3-0073,"gem install bundler -v '2.3.26' --source 'https://rubygems.org/' failed with:
+ERROR: Failed to build gem native extension.",dependency,Dependencies,https://github.com/rubygems/rubygems/issues/5640
+RW3-0074,"ModuleNotFoundError: No module named 'psycopg2'
+During handling of the above exception, another exception occurred:
+Django.db.utils.OperationalError: could not connect to server: No such file or directory",dependency,Dependencies,https://github.com/psycopg/psycopg2/issues/1293
+RW3-0118,"Error loading config file ""/root/.docker/config.json"": open /root/.docker/config.json: permission denied
+docker: Error response from daemon: Get registry-auth-token: unauthorized",authentication,Authentication,https://github.com/moby/moby/issues/22635
+RW3-0159,"remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/",authentication,Authentication,https://github.com/orgs/community/discussions/18596
+RW3-0213,"E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 12345 (apt-get).
+E: Unable to acquire the dpkg frontend lock, are you root?",build,Build,https://github.com/actions/runner-images/issues/5700
+RW3-0214,"yarn: error: Resource busy or locked: EBUSY: resource busy or locked, rename 'node_modules/.modules.yaml.tmp' -> 'node_modules/.modules.yaml'",dependency,Dependencies,https://github.com/yarnpkg/berry/issues/4477
+RW3-0215,FATAL: Gradle build daemon process failed to start. Lock file exists at: /home/runner/.gradle/daemon/7.5.1/registry.bin.lock. Another daemon may be running.,build,Build,https://github.com/gradle/gradle/issues/17546
+RW3-0226,"ERROR: job failed (exit code 137): Out of memory. The job runner ran out of memory.
+ Process 'command ./gradlew test' finished with non-zero exit value 137",build,Build,https://github.com/gradle/gradle/issues/16221
+RW3-0229,"npm ERR! code ENOTFOUND
+npm ERR! errno ENOTFOUND
+npm ERR! network request to https://registry.npmjs.org/commander failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443",network,Network,https://github.com/npm/npm/issues/19461
+RW3-0230,"WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x7fdfdb70c850>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')': /simple/types-pyyaml/",network,Network,https://github.com/pre-commit-ci/issues/issues/80
+RW3-0231,"Error: getaddrinfo ENOTFOUND
+connection getaddrinfo ENOTFOUND
+network This is most likely not a problem with npm itself and is related to network connectivity.",network,Network,https://github.com/npm/npm/issues/6686
+RW3-0232,"upstream error (URL URL('https://pypi.org/simple/') returned -1 ConnectionError(MaxRetryError(""HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /simple/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f4a52b51760>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))""))): using stale projects list",network,Network,https://github.com/devpi/devpi/issues/976
+RW3-0233,"ERROR: Temporary failure in name resolution
+docker: Failed to connect to registry.example.com port 443: Temporary failure in name resolution.
+See 'docker run --help'.",network,Network,https://github.com/docker/for-win/issues/13808
+RW3-0234,"dial tcp: lookup kubernetes.default.svc.cluster.local on 10.96.0.10:53: read udp 10.244.0.5:42847->10.96.0.10:53: i/o timeout
+Error: failed to resolve service hostname",network,Network,https://github.com/kubernetes/kubernetes/issues/52315
+RW3-0235,"Error: dial tcp: lookup my-service.default.svc.cluster.local: no such host
+failed to connect to service endpoint",network,Network,https://github.com/kubernetes/kubernetes/issues/61076
+RW3-0236,"curl: (6) Could not resolve host: api.example.com
+ssl_error_internal_error_alert on connection to api.example.com:443",network,Network,https://github.com/curl/curl/issues/9397
+RW3-0237,"ConnectionError: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/$OWNER/$REPO/releases (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f>: Failed to resolve 'api.github.com' ([Errno -2] Name or service not known)""))",network,Network,https://github.com/PyGithub/PyGithub/issues/2001
+RW3-0238,"Error from server: etcdserver: request timed out
+dns: lookup api-int.ocp-cluster.example.com on 172.30.0.10:53: no such host",network,Network,https://github.com/openshift/origin/issues/24873
+RW3-0240,"error: InvalidClientTokenId: Signature expired: 20240101T000000Z is now earlier than 20240601T235959Z (20240602T000029Z - 15 min.)
+Clock skew detected on CI host",authentication,Authentication,https://github.com/aws/aws-cli/issues/4261
+RW3-0244,"GPG error: http://security.ubuntu.com/ubuntu focal-security InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY
+Clock skew detected: apt-get update failed",build,Build,https://github.com/moby/moby/issues/1340
+RW3-0249,"E: Unable to locate package libssl-dev
+E: Package 'libssl-dev' has no installation candidate",dependency,Dependencies,https://github.com/actions/runner-images/issues/5498
+RW3-0250,"[dup-249] npm ERR! code ENOTFOUND
+npm ERR! errno ENOTFOUND
+npm ERR! network request to http://registry.npmjs.org/create-react-app failed, reason: getaddrinfo ENOTFOUND proxy.example.com",dependency,Dependencies,https://github.com/nodejs/help/issues/4093
+RW3-0251,"Collecting lxml
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.VerifiedHTTPSConnection object at 0x7f8acf4ca3c8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)': /simple/lxml/",dependency,Dependencies,https://github.com/lambci/docker-lambda/issues/196
+RW3-0252,error: 14: Could not open file https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm: Curl error (6): Couldn't resolve host name,dependency,Dependencies,https://github.com/ansible/ansible/issues/14050
+RW3-0253,"W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/focal/InRelease Connection failed [IP: 91.189.88.174 80]
+E: Some index files failed to download. They have been ignored, or old ones used instead.",dependency,Dependencies,https://github.com/docker/for-linux/issues/893
+RW3-0254,"Error: Package 'nodejs' has no installation candidate
+nodejs: Depends: libnode72 (= 12.22.12~dfsg-1~deb11u3) but it is not going to be installed",dependency,Dependencies,https://github.com/nodesource/distributions/issues/1310
+RW3-0255,"yum: Failed to set locale, defaulting to C
+Error: Could not retrieve mirrorlist http://mirrorlist.centos.org/?release=7&arch=x86_64 error was: 14: curl#6 - ""Could not resolve host: mirrorlist.centos.org""",dependency,Dependencies,https://github.com/CentOS/sig-core-AltArch/issues/15
+RW3-0256,"gem install rails -v 7.0.4 failed. Gem::Ext::BuildError: ERROR: Failed to build gem native extension. make failed, exit code 2.
+An error occurred while installing nokogiri (1.13.10), and Bundler cannot continue.",dependency,Dependencies,https://github.com/rubygems/rubygems/issues/5723
+RW3-0257,"pip: ERROR: Could not find a version that satisfies the requirement scipy==1.9.0 (from versions: 1.4.1)
+ERROR: No matching distribution found for scipy==1.9.0",dependency,Dependencies,https://github.com/pypa/pip/issues/10853
+RW3-0258,"apt-get: E: Unmet dependencies. Try 'apt --fix-broken install'.
+build-essential: Depends: gcc (>= 4:4.9.1) but gcc:amd64 (4:4.8.4-1ubuntu15) is to be installed",dependency,Dependencies,https://github.com/moby/moby/issues/1712
+RW3-0259,"Error: listen EADDRINUSE: address already in use :::8200
+[2021-08-16T21:47:37.011Z] at Server.setupListenHandle [as _listen2] (net.js:1320:16)",test,Test,https://github.com/elastic/apm-agent-nodejs/issues/2131
+RW3-0260,"[0] Error: listen EADDRINUSE: address already in use :::5000
+[0] at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+[0] at listenInCluster (net.js:1366:12)",test,Test,https://github.com/remy/nodemon/issues/1849
+RW3-0261,"{ code: 'EADDRINUSE', errno: 'EADDRINUSE', syscall: 'listen', address: '::', port: 5000 }
+Firebase emulator: Error starting functions emulator on port 5000",test,Test,https://github.com/firebase/firebase-tools/issues/2585
+RW3-0264,"Error: spawn EACCES /usr/local/bin/node: bind EADDRINUSE 0.0.0.0:3000
+Process exited with code 1",test,Test,https://github.com/nodejs/help/issues/1890
+RW3-0265,"Error: bind: address already in use
+Error starting Django development server: That port is already in use.
+127.0.0.1:8000: [Errno 98] Address already in use",test,Test,https://github.com/django/django/issues/15578
+RW3-0266,"java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+Spring Boot startup failed: Port 8080 already in use",test,Test,https://github.com/spring-projects/spring-boot/issues/4001
+RW3-0267,"OSError: [Errno 98] Address already in use: ('0.0.0.0', 8000)
+Failed to start Flask development server on port 8000",test,Test,https://github.com/pallets/flask/issues/4295
+RW3-0268,"torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 54401, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use",test,Test,https://github.com/Lightning-AI/pytorch-lightning/issues/21308
+RW3-0393,Error: AWS account 123456789012 has been suspended due to billing violation. All API calls will fail until the account is restored.,authentication,Authentication,https://github.com/aws/aws-cli/issues/7891
+RW3-0400,"TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
+TLS Error: TLS handshake failed
+OpenVPN exiting",network,Network,https://github.com/OpenVPN/openvpn/issues/157
+RW3-0401,"ERROR: Connection to VPN gateway failed: Network unreachable
+openssl: error:00000000:lib(0):func(0):reason(0) ssl routines
+strongswan[1234]: received INTERNAL_ADDRESS_FAILURE notify",network,Network,https://github.com/strongswan/strongswan/issues/562
+RW3-0402,NetworkError: Unable to establish VPN connection. Error code: 789 (The L2TP connection attempt failed because the security layer encountered a processing error during initial negotiations with the remote computer.),network,Network,https://github.com/vpn-user-portal/vpn-user-portal/issues/447
+RW3-0403,"wireguard: peer (abc123): Handshake for peer did not complete after 5 seconds, retrying
+wg: timeout while waiting for handshake from peer $PEER_KEY",network,Network,https://github.com/WireGuard/wireguard-linux/issues/89
+RW3-0404,"Cisco AnyConnect: Connection attempt failed. Reason: Network connectivity issue detected between the client and the gateway.
+Error: Failed to negotiate DTLS connection.",network,Network,https://github.com/openconnect/openconnect/issues/352
+RW3-0405,"Error: VPN tunnel is down. Last successful heartbeat: 300 seconds ago. Reconnecting...
+ip xfrm state: ACQUIREEXPIRED: IPSec SA acquisition timed out",network,Network,https://github.com/strongswan/strongswan/issues/489
+RW3-0406,"WARN: VPN IP address changed from 10.8.0.5 to 10.8.0.8 after reconnect. Update DNS and routing tables.
+Route to 192.168.0.0/16 via 10.8.0.1 unreachable.",network,Network,https://github.com/OpenVPN/openvpn/issues/243
+RW3-0407,ERROR: Cloud VPN tunnel 'vpn-tunnel-01' state is DOWN. Peer gateway not responding. GCP Cloud VPN Uptime: 0%.,network,Network,https://github.com/terraform-google-modules/terraform-google-vpn/issues/78
+RW3-0408,VPN Error 809: The network connection between your computer and the VPN server could not be established because the remote server is not responding.,network,Network,https://github.com/OpenVPN/openvpn/issues/312
+RW3-0409,Error: AWS Site-to-Site VPN tunnel is down. BGP session to Customer Gateway 203.0.113.10 is down. Tunnel1 Status: DOWN. Check customer gateway configuration.,network,Network,https://github.com/hashicorp/terraform-provider-aws/issues/12476
+RW3-0438,"E: Package 'python3-pip' has no installation candidate
+Note, selecting 'python3-pip' instead of 'python-pip'
+E: Package 'python-pip' has no installation candidate
+dpkg: error processing",dependency,Dependencies,https://stackoverflow.com/questions/75608323/how-to-install-pip-in-debian-12-bookworm
+RW3-0440,"Error: GPG check FAILED for package python3-devel-3.11.2-1.el9.x86_64 (BaseOS)
+dnf: GPG check failed. Repository key rotation may be required.",dependency,Dependencies,https://stackoverflow.com/questions/74893143/rocky-linux-9-dnf-gpg-check-failed
+RW3-0445,"panic: runtime error: invalid memory address or nil pointer dereference in github.com/gofiber/fiber
+fiber: bind: address already in use :::8080
+Cannot start Fiber application.",test,Test,https://github.com/gofiber/fiber/issues/1943
+RW3-0457,LDAP authentication failure: Cannot contact LDAP server. Server 'ldap.company.internal:389' is unreachable. All Jenkins logins disabled. Emergency access requires console admin.,authentication,Authentication,https://github.com/jenkinsci/jenkins/issues/5492
+RW3-0459,BGP session down: peer 203.0.113.1 (AS65001) not reachable. All external traffic routing affected. ISP outage detected. No automated failover configured for this circuit.,network,Network,https://github.com/FRRouting/frr/issues/12847
+RW3-0464,SAML SSO enforcement: Your organization requires SAML authentication. The GitHub Actions machine user 'ci-bot' has not authorized its PAT with SAML SSO. All GitHub API calls blocked.,authentication,Authentication,https://github.com/orgs/community/discussions/47090
+RW3-0481,Pipeline blocked: Secret 'PROD_API_KEY' has expired (rotated by vendor). All downstream API calls failing with 401. New key must be obtained from vendor portal and rotated manually.,authentication,Authentication,https://github.com/actions/runner/issues/2847
+RW3-0487,Network: BGP route for 10.8.0.0/16 was accidentally withdrawn. All microservices in the internal VPN subnet are unreachable. Requires network engineer to restore routing table.,network,Network,https://github.com/FRRouting/frr/issues/14231
