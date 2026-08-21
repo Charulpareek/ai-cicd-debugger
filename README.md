@@ -1,6 +1,3 @@
-Absolutely. Below is the **complete `README.md` in Markdown**, ready to copy and paste directly into your project's `README.md`.
-
-````markdown
 # AI CI/CD Debugger
 
 An AI-assisted CI/CD log analysis system that automatically analyzes CI/CD failure logs, identifies the likely root-cause category, and returns a structured debugging response.
@@ -136,7 +133,7 @@ Creates the standardized API response returned by the application.
 * Pandas
 * Requests
 * REST API
-* Git
+- Git
 * CI/CD log analysis
 * Rule-based classification
 * AI-assisted analysis
@@ -652,8 +649,8 @@ CI/CD systems such as:
 * Kubernetes
 * Maven
 * Gradle
-* npm
-* pip
+- npm
+- pip
 
 can produce substantially different log formats.
 
@@ -793,4 +790,3 @@ These results demonstrate that the system can effectively identify common CI/CD 
 **Project:** AI CI/CD Debugger
 
 ---
-
