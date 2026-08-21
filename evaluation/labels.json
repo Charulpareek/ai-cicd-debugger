@@ -1,0 +1,12 @@
+{
+  "auth_01.log": "authentication",
+  "auth_02.log": "authentication",
+  "build_01.log": "build",
+  "dependency_01.log": "dependency",
+  "dependency_02.log": "dependency",
+  "file_01.log": "file",
+  "file_02.log": "file",
+  "network_01.log": "network",
+  "network_02.log": "network",
+  "test_01.log": "test"
+}

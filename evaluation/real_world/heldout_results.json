@@ -1,0 +1,193 @@
+{
+  "benchmark": "heldout.csv",
+  "total_cases": 23,
+  "correct_cases": 18,
+  "accuracy_percent": 78.26,
+  "average_latency_ms": 24.68,
+  "results": [
+    {
+      "id": "RW3-0009",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 35.85,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0229",
+      "expected": "network",
+      "predicted": "dependency",
+      "correct": false,
+      "latency_ms": 24.88,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0070",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 15.19,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0487",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 7.3,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0440",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 7.9,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0213",
+      "expected": "build",
+      "predicted": "dependency",
+      "correct": false,
+      "latency_ms": 70.33,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0238",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 10.06,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0264",
+      "expected": "test",
+      "predicted": "test",
+      "correct": true,
+      "latency_ms": 8.62,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0393",
+      "expected": "authentication",
+      "predicted": "unknown",
+      "correct": false,
+      "latency_ms": 34.68,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0445",
+      "expected": "test",
+      "predicted": "test",
+      "correct": true,
+      "latency_ms": 19.64,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0043",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 9.82,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0260",
+      "expected": "test",
+      "predicted": "test",
+      "correct": true,
+      "latency_ms": 18.75,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0250",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 33.06,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0406",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 24.84,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0066",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 30.87,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0038",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 50.16,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0234",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 15.3,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0065",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 31.85,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0256",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 9.43,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0409",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 29.57,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0007",
+      "expected": "authentication",
+      "predicted": "unknown",
+      "correct": false,
+      "latency_ms": 25.01,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0159",
+      "expected": "authentication",
+      "predicted": "unknown",
+      "correct": false,
+      "latency_ms": 19.47,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0012",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 35.12,
+      "status": "success"
+    }
+  ]
+}

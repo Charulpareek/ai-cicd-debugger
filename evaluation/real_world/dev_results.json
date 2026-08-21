@@ -1,0 +1,489 @@
+{
+  "benchmark": "dev.csv",
+  "total_cases": 60,
+  "correct_cases": 59,
+  "accuracy_percent": 98.33,
+  "average_latency_ms": 29.88,
+  "results": [
+    {
+      "id": "RW3-0006",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 14.32,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0254",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 85.93,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0438",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 14.91,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0251",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 34.09,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0403",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 31.13,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0235",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 8.66,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0268",
+      "expected": "test",
+      "predicted": "test",
+      "correct": true,
+      "latency_ms": 18.12,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0236",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 14.55,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0240",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 18.19,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0005",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 42.65,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0249",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 28.52,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0214",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 9.09,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0402",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 11.72,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0267",
+      "expected": "test",
+      "predicted": "test",
+      "correct": true,
+      "latency_ms": 12.97,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0407",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 29.13,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0259",
+      "expected": "test",
+      "predicted": "test",
+      "correct": true,
+      "latency_ms": 17.86,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0036",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 14.02,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0408",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 15.17,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0002",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 13.61,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0481",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 13.34,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0074",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 9.14,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0039",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 18.34,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0037",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 19.64,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0040",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 13.96,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0261",
+      "expected": "test",
+      "predicted": "test",
+      "correct": true,
+      "latency_ms": 21.33,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0003",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 21.05,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0004",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 56.2,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0067",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 35.65,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0230",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 39.09,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0257",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 17.36,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0010",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 35.03,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0404",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 63.97,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0258",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 33.89,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0011",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 39.38,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0405",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 48.43,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0265",
+      "expected": "test",
+      "predicted": "test",
+      "correct": true,
+      "latency_ms": 60.27,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0400",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 51.96,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0232",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 49.45,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0118",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 52.04,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0464",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 32.77,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0459",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 36.72,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0001",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 61.33,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0266",
+      "expected": "test",
+      "predicted": "test",
+      "correct": true,
+      "latency_ms": 71.88,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0252",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 31.99,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0237",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 13.44,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0401",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 49.49,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0068",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 90.48,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0071",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 13.63,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0073",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 14.07,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0044",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 16.9,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0255",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 15.93,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0035",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 19.34,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0215",
+      "expected": "build",
+      "predicted": "build",
+      "correct": true,
+      "latency_ms": 15.38,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0069",
+      "expected": "dependency",
+      "predicted": "dependency",
+      "correct": true,
+      "latency_ms": 12.84,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0231",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 12.22,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0253",
+      "expected": "dependency",
+      "predicted": "network",
+      "correct": false,
+      "latency_ms": 16.52,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0244",
+      "expected": "build",
+      "predicted": "build",
+      "correct": true,
+      "latency_ms": 17.4,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0457",
+      "expected": "authentication",
+      "predicted": "authentication",
+      "correct": true,
+      "latency_ms": 40.19,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0226",
+      "expected": "build",
+      "predicted": "build",
+      "correct": true,
+      "latency_ms": 36.83,
+      "status": "success"
+    },
+    {
+      "id": "RW3-0233",
+      "expected": "network",
+      "predicted": "network",
+      "correct": true,
+      "latency_ms": 39.54,
+      "status": "success"
+    }
+  ]
+}
