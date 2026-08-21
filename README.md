@@ -19,8 +19,8 @@ The **AI CI/CD Debugger** automatically analyzes CI/CD logs and classifies failu
 - `network`
 - `build`
 - `test`
-
-
+- `file`
+- `unknown`
 The system combines log parsing, rule-based classification, and AI-assisted analysis to produce a final classification and debugging information.
 
 ---
@@ -68,7 +68,7 @@ The main objectives of this project are:
                         |
                         v
                   JSON Response
-````
+```
 
 ---
 
@@ -132,7 +132,7 @@ Creates the standardized API response returned by the application.
 * Pandas
 * Requests
 * REST API
-- Git
+* Git
 * CI/CD log analysis
 * Rule-based classification
 * AI-assisted analysis
@@ -648,9 +648,8 @@ CI/CD systems such as:
 * Kubernetes
 * Maven
 * Gradle
-- npm
-- pip
-
+* npm
+* pip
 can produce substantially different log formats.
 
 ## Unknown Failures
